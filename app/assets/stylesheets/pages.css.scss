@@ -1,0 +1,166 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#outer-wrap {
+	width: 100%;
+	padding-top: 40px
+}
+
+#inner-wrap {
+	width: 1001px;
+	margin: auto;
+}
+
+#header 	{
+	width: 100%;
+	height: 150px;
+	background-image: url('social.png');
+	background-repeat: no-repeat;
+	background-position: right 0px;
+}
+
+#logo		{
+	width: 277px;
+	height: 80px;
+	background-image: url('logo.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+}
+
+#menu 		{
+	height: 60px;
+	background-color: white;
+}
+
+.navigation	{
+		list-style-type: none;
+		font-family: ArialNarrow;
+		font-size: large;
+		font-weight: 100;
+		position: relative;
+		top: 20px;
+}
+
+nav li 	{
+	display: inline;
+	padding: 30px;
+	margin: auto;
+}
+
+nav li a:hover	{
+	background-color: black;
+	color: white;
+}
+
+nav li a:visited	{
+	background-color: black;
+}
+
+#image 	{
+	height: 290px;
+	padding-top: 15px; 
+}
+
+#banner-left {
+	width: 20px;
+	height: 290px;
+	background-image: url('banner-left.png');
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#banner {
+	width: 961px;
+	height: 290px;
+	background-image: url('banner.jpg');
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#banner-right {
+	width: 20px;
+	height: 290px;
+	background-image: url('banner-right.png');
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#content-wrapper	{
+	width: 100%;
+	height: 580px;
+	background-color: white;
+	border-bottom: solid 8px #ddd;
+}
+
+#border		{
+	width: 100%;
+	height: 16px;
+	background-image: url('border.png');
+	background-repeat: no-repeat;
+}
+
+#contents	{
+	width: 961px;
+	height: 600px;
+	margin: auto;
+}
+
+#title 		{
+	border-bottom: dotted 1px gray;
+	padding: 0px;
+	height: 32px;
+}
+
+#speed 		{
+	border-bottom: dotted 1px gray;
+	padding: 0px;
+	height: 28px;
+}
+
+.icons		{
+	padding: 0px 10px 0px 15px;
+	float: left;
+}
+
+#testblock	{
+	padding: 15px 0 0 0;
+}
+
+#leftcol	{
+	float: left;
+	width: 49%;
+}
+
+#rightcol	{
+	float: right;
+	width: 49%;
+}
+
+#section2		{
+	width: 100%;
+	height: 200px;
+}
+
+.sect2		{
+	height: 28px;
+	width: 400px;
+	border-bottom: dotted 1px gray;
+}
+
+
+#footer		{
+	height: 150px;
+	background-color: white;
+	padding: 15px 0 10px 20px;
+	margin: 0;
+	font-size: small;
+	color: gray;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	background-image: url('facebook.png');
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+}
+
+
