@@ -23,7 +23,7 @@
  	color: black;
  }
 
- h3			{
+ h3, h5			{
  	color: #408de6;
  }
 
@@ -50,7 +50,7 @@ a:active	{
 
 #outer-wrap {
 	width: 100%;
-	padding-top: 40px
+	padding-top: 20px
 }
 
 #inner-wrap {
@@ -106,6 +106,13 @@ nav li a:hover	{
 
 nav li a:visited	{
 	background-color: black;
+}
+
+input[type=button] {
+    display: block;
+    background-color: #408de6;
+    color: white;
+    font-size: large;
 }
 
 #footer		{

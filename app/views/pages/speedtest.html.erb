@@ -31,7 +31,8 @@
 					<div id="speed">
 					<h3>Select your school...</h3>	
 					</div>		
-	
+
+<!-- ***** This is the code for the loading animation ******* -->	
 					<div id="testboxoutter">
 
 						<ul id="loadbar" style="display:none;">
@@ -66,42 +67,53 @@
 							    <div id="layerFill10" class="bar"></div>
 							</li>
 						</ul>		
+
+<!-- ***** End of the code for the loading animation ******* -->	
 						
 						<div id="testtext">
 						</div>	
 						<div id="testboxinner">
-							Nearby Schools							
+													
 							<div id="nearbyschools">
+									<h4 class="sect3">Nearby Schools</h4>	
+									Please choose one of the following
 								<select id="first-choice">
-									<option selected value="base">Please select your grade levels (K-12)</option>
+									<option selected value="base">Grades (K-12)</option>
 									<option value="elementary">Elementary School</option>
 									<option value="middle">Middle School</option>
 									<option value="high">High School</option>
 								</select>
-								<br />
+								<br />	
+									Select your school
 								<select id="second-choice">
 									<option>Please choose from above</option>
 									<option value="school1">East High School (1600 City Park Esplanade, 80206-1508)</option>
 									<option value="school2">George Washington (655 S. Monaco Parkway, 80224-1228)</option>
 								</select>
-								
-								<form  action="", id="runtest">	
-									<input type="button" value="Run Speed Test"  onclick="Delayer(); $('#loadbar').show();" value="Run Speed Test" />
-
-								</form>	
+								<h3>-  or  -</h3><br />
 							</div>
+							
 							<div id="search">
-								<p><%= form_tag("/search", method: "get") do %>
-	  								<%= label_tag(:q, "Search by school name") %>
+								<h4 class="sect3">Search for Schools</h4>
+								<div>
+									<%= form_tag("/search", method: "get") do %>
+	  								Search by school name:
 	  								<%= text_field_tag(:q) %>
 	  								<%= submit_tag("Search") %>
-								<% end %></p>
-								<p><%= form_tag("/search", method: "get") do %>
-	  								<%= label_tag(:q, "Search by NECS ID") %>
+									<% end %>
+							
+									<%= form_tag("/search", method: "get") do %>
+	  								Search by NCES ID number:
 	  								<%= text_field_tag(:q) %>
 	  								<%= submit_tag("Search") %>
-								<% end %></p>
+									<% end %>
+								</div>	
 							</div>
+							<div>
+								<form  action="", id="runtest">	
+								<input type="button" style="height:50px; width:10em;" value="Run Speed Test"  onclick="Delayer(); $('#loadbar').show();" value="Run Speed Test" />
+								</form>	
+							</div>	
 
 						</div>
 					</div>	

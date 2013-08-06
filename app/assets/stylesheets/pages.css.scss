@@ -59,9 +59,12 @@
 	height: 32px;
 }
 
+
+/*------ This is the styling for the speedtest page --------*/
+
+
 #speed 		{
 	border-bottom: dotted 1px gray;
-	padding: 0px;
 	height: 28px;
 }
 
@@ -95,46 +98,50 @@
 	border-bottom: dotted 1px gray;
 }
 
-/*  This Section is for the 'speedtest' page, the wrapper with the test */
+/*  -------This Section is for the 'speedtest' page, the wrapper with the test --------*/
 
 #testboxoutter	{
-	height: 400px;
 	margin: auto;
 	padding: 10px;
 }
 
 #testboxinner	{
 	width: 80%;
-	height: 320px;
+	height: 390px;
 	margin: auto;
-	padding: 30px;
-	border: dotted 1px #ddd;
+	padding: 10px;
+	border: dotted 3px #ddd;
 	border-radius: 10px;
 }
 
 #nearbyschools 		{
-	height: 125px;
-	margin-top: 10px;
-	background-color: #ddd;
+	height: 25px;
 	border-radius: 5px;
 	padding: 15px;
 }
 
 #search 		{
 	width: 450px;
-	height: 90px;
-	margin-top: 10px;
-	background-color: #ddd;
+	height: 80px;
+	margin-top: 100px;
 	border-radius: 5px;
 	padding: 15px;
+
+}
+
+.sect3 			{
+		height: 28px;
+		width: 450px;
+		border-bottom: dotted 1px gray;
 }
 
 #runtest		{
-	float: right;
-	margin: 30px;
+	margin-top: 60px;
+	position: relative;
+	left: 520px;
 }
 
-/* This is the section for the loading animation */
+/* ------------This is the section for the loading animation ---------------*/
 
 
 
