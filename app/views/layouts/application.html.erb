@@ -4,6 +4,17 @@
   <title>Connected</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  	<script language="javascript" type="text/javascript">
+	  	function Delayer()  
+		{  
+			setTimeout('Redirection()', 5000);  
+		}  
+			function Redirection()  
+		{  
+			window.location="http://www.google.com";  
+		}  
+	</script>
+
   <%= csrf_meta_tags %>
 </head>
 <body>

@@ -24,7 +24,7 @@
  }
 
  h3			{
- 	color: #5eb4ff;
+ 	color: #408de6;
  }
 
  p 			{
@@ -37,12 +37,86 @@ a:link 		{
 }
 
 a:visited 	{
-	color: black;
+	color: #408de6;
 }
 
 a:hover		{
-	color: #5eb4ff;
+	color: #408de6;
 }
 
 a:active	{
+	color: gray;
+}
+
+#outer-wrap {
+	width: 100%;
+	padding-top: 40px
+}
+
+#inner-wrap {
+	width: 1001px;
+	margin: auto;
+}
+
+#header 	{
+	width: 100%;
+	height: 150px;
+	background-image: url('social.png');
+	background-repeat: no-repeat;
+	background-position: right 0px;
+}
+
+#logo		{
+	width: 277px;
+	height: 80px;
+	background-image: url('logo.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+}
+
+#menu 		{
+	height: 60px;
+	background-color: white;
+}
+
+.navigation	{
+		list-style-type: none;
+		font-family: ArialNarrow;
+		font-size: large;
+		font-weight: 100;
+		position: relative;
+		top: 20px;
+}
+
+nav li 	{
+	display: inline;
+	padding: 30px;
+	margin: auto;
+}
+
+nav li a:visited	{
+	color: black;
+}
+
+nav li a:hover	{
+	background-color: black;
+	color: white;
+}
+
+nav li a:visited	{
+	background-color: black;
+}
+
+#footer		{
+	height: 150px;
+	background-color: white;
+	padding: 15px 0 10px 20px;
+	margin: 0;
+	font-size: small;
+	color: gray;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	background-image: url('facebook.png');
+ 	background-repeat: no-repeat;
+ 	background-position: right;
 }

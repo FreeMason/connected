@@ -20,7 +20,7 @@
 		</div>
 		<div id="image">
 			<div id="banner-left" ></div>
-			<div id="banner" ></div>
+			<div id="banner" ><%= image_tag ('banner.jpg') %></div>
 			<div id="banner-right"></div>
 		</div>
 		<div id="content-wrapper">
@@ -30,13 +30,13 @@
 					<h2>Power an Upgrade for America's K-12 Students</h2>
 				</div>
 				<div id="speed">
-					<h3><a href="">Take the SchoolSpeedTest</a></h3>	
+					<h3><%= link_to 'Take the SchoolSpeedTest', 'speedtest' %></h3>	
 				</div>		
 				<div id="testblock">
-					<%= link_to (image_tag ("speed.png"), :class => "icons"), '#' %>
+					<%= link_to (image_tag ("speed.png"), :class => "icons"), 'speedtest' %>
 					<p> Are you at school right now? Looking for a fast way to make a difference for your students? In one minute you can test your school and add it to the first-ever national database of K-12 Internet connections.</p>
 
-					<p>Your data will influence policy at the local, state, and federal levels and help make the case for a K-12 Internet upgrade so we can ensure every student in America has equal access to digital learning. <span style="font-weight: bold; color: #5eb4ff;"><a href="#">Test now</a></span>.</p>
+					<p>Your data will influence policy at the local, state, and federal levels and help make the case for a K-12 Internet upgrade so we can ensure every student in America has equal access to digital learning. <span style="font-weight: bold; color: #5eb4ff;"><a href="speedtest">Test now</a></span>.</p>
 				</div>
 				<div id="section2">
 					<div id="leftcol">

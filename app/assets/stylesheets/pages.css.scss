@@ -2,61 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#outer-wrap {
-	width: 100%;
-	padding-top: 40px
-}
-
-#inner-wrap {
-	width: 1001px;
-	margin: auto;
-}
-
-#header 	{
-	width: 100%;
-	height: 150px;
-	background-image: url('social.png');
-	background-repeat: no-repeat;
-	background-position: right 0px;
-}
-
-#logo		{
-	width: 277px;
-	height: 80px;
-	background-image: url('logo.png');
-	background-position: left top;
-	background-repeat: no-repeat;
-	margin-bottom: 25px;
-}
-
-#menu 		{
-	height: 60px;
-	background-color: white;
-}
-
-.navigation	{
-		list-style-type: none;
-		font-family: ArialNarrow;
-		font-size: large;
-		font-weight: 100;
-		position: relative;
-		top: 20px;
-}
-
-nav li 	{
-	display: inline;
-	padding: 30px;
-	margin: auto;
-}
-
-nav li a:hover	{
-	background-color: black;
-	color: white;
-}
-
-nav li a:visited	{
-	background-color: black;
-}
+/*  This section is for the Homepage (with some elements like the banner shared on other static pages */
 
 #image 	{
 	height: 290px;
@@ -74,7 +20,7 @@ nav li a:visited	{
 #banner {
 	width: 961px;
 	height: 290px;
-	background-image: url('banner.jpg');
+	background-color: #ffcd19;
 	background-repeat: no-repeat;
 	float: left;
 }
@@ -149,18 +95,158 @@ nav li a:visited	{
 	border-bottom: dotted 1px gray;
 }
 
+/*  This Section is for the 'speedtest' page, the wrapper with the test */
 
-#footer		{
-	height: 150px;
-	background-color: white;
-	padding: 15px 0 10px 20px;
-	margin: 0;
-	font-size: small;
-	color: gray;
- 	font-family: "Trebuchet MS", Helvetica, sans-serif;
- 	background-image: url('facebook.png');
- 	background-repeat: no-repeat;
- 	background-position: right;
+#testboxoutter	{
+	height: 400px;
+	margin: auto;
+	padding: 10px;
 }
+
+#testboxinner	{
+	width: 80%;
+	height: 320px;
+	margin: auto;
+	padding: 30px;
+	border: dotted 1px #ddd;
+	border-radius: 10px;
+}
+
+#nearbyschools 		{
+	height: 125px;
+	margin-top: 10px;
+	background-color: #ddd;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+#search 		{
+	width: 450px;
+	height: 90px;
+	margin-top: 10px;
+	background-color: #ddd;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+#runtest		{
+	float: right;
+	margin: 30px;
+}
+
+/* This is the section for the loading animation */
+
+
+
+#loadbar {
+    height: 30px;
+    width: 450px;
+    list-style: none;
+    margin: auto;
+    position: relative;
+    padding-left: 340px;
+}
+
+ul#loadbar li {
+    float: left;
+    position: relative;
+    width: 11px;
+    height: 26px;
+    margin-left: 1px;
+    border-left: 1px solid #111;
+    border-top: 1px solid #111;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background: #000;
+}
+
+ul#loadbar li:first-child {
+    margin-left: 0;
+}
+
+.bar {
+    background-color: #2187e7;
+    background-image: -moz-linear-gradient(45deg, #2187e7 25%, #a0eaff);
+    background-image: -webkit-linear-gradient(45deg, #2187e7 25%, #a0eaff);
+    width: 11px;
+    height: 26px;
+    opacity: 0;
+    -webkit-animation: fill .5s linear forwards;
+    -moz-animation: fill .5s linear forwards;
+}
+
+#layerFill1 {
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+#layerFill2 {
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+#layerFill3 {
+    -moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+#layerFill4 {
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+#layerFill5 {
+    -moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+}
+
+#layerFill6 {
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+
+#layerFill7 {
+    -moz-animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+}
+
+#layerFill8 {
+    -moz-animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+#layerFill9 {
+    -moz-animation-delay: 4.5s;
+    -webkit-animation-delay: 4.5s;
+}
+
+#layerFill10 {
+    -moz-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+
+@-moz-keyframes fill {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    };
+}
+
+@-webkit-keyframes fill {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    };
+}
+
+
+
+/*-------------- End of the loading section ------------------*/
 
 
