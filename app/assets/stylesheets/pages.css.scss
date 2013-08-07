@@ -275,12 +275,12 @@ ul#loadbar li:first-child {
 	width: 30%;
 	height: 200px;
 	float: left;
-	margin: 4px;
+	margin: 4px 4px 10px 40px;
 	padding: 10px 20px 0px 20px;
 }
 
 #widget			{
-	width: 560px;
+	width: 500px;
 	height: 20px;
 	float: right;
 	margin: 4px;
@@ -301,10 +301,13 @@ h4 		{
 #explainer			{
 	width: 920px;
 	height: 150px;
-	margin-top: 220px;
+	margin-top: 235px;
 	padding: 0px 20px 20px 20px;
 }
 
 .seal				{
 	height: 100%;
+	border: solid 1px gray;
+	border-radius: 6px;
+	box-shadow: #ddd 0 2px 1px 0;
 }
