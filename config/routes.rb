@@ -2,6 +2,8 @@ Connected::Application.routes.draw do
 
   root :to => 'pages#home'
   get '/speedtest' => 'pages#speedtest'
+  get '/success' => 'pages#success'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

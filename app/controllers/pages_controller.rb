@@ -6,4 +6,7 @@ class PagesController < ApplicationController
 	def speedtest
   	end
 
+  	def success
+  	end
+
 end
